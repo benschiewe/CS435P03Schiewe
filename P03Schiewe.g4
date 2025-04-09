@@ -2,7 +2,7 @@ grammar P03Schiewe;
 
 
 program
-            : stmt_list EOF
+            : stmt_list
             ;
 
 
@@ -13,7 +13,7 @@ stmt_list
 
 
 stmt
-            : ID ':=' expr
+            : ID ':=' expr ';'
             | 'read(' id_list ');'
             | 'write(' expr_list ');'
             ;
