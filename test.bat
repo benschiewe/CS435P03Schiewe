@@ -5,7 +5,7 @@ echo.
 echo.
 echo.
 
-del *-output.txt
+del tests/*-output.txt
 
 java CS435P03Schiewe tests/sample1.txt
 echo.
