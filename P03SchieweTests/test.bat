@@ -7,7 +7,7 @@ echo.
 
 del *-output.txt
 
-java ../CS435P03Schiewe sample1.txt
+java CS435P03Schiewe sample1.txt
 echo.
 echo.
 echo.
