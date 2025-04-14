@@ -1,9 +1,6 @@
 
 # Recursive Descent Parser w/ ANTLR
 
-
-
-
 ## Usage/Examples
 
 To build the project (run ANTLR code generation and Java compilation), run
@@ -11,7 +8,6 @@ To build the project (run ANTLR code generation and Java compilation), run
 ```bash
 ./build.bat
 ```
-
 
 ## Running Tests
 
