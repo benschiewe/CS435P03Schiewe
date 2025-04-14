@@ -11,8 +11,8 @@ stmt_list
 
 stmt
             : ID ASSIGN expr SEMICOLON
-            | 'read' LPAREN id_list RPAREN SEMICOLON
-            | 'write' LPAREN expr_list RPAREN SEMICOLON
+            | READ LPAREN id_list RPAREN SEMICOLON
+            | WRITE LPAREN expr_list RPAREN SEMICOLON
             ;
 
 expr_list
@@ -67,6 +67,8 @@ mult_op
             | DIV
             ;
 
+READ    : 'read' ;
+WRITE   : 'write' ;
 ID      : [a-zA-Z_][a-zA-Z_0-9]* ;
 NUMBER  : [0-9]+ ;
 SEMICOLON : ';' ;
